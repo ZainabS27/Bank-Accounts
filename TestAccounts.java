@@ -12,18 +12,18 @@ public class TestAccounts {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         CheckingAccount[] checkAccounts = new CheckingAccount[5];
-        checkAccounts[0] = new CheckingAccount("William Burst", 10000);
-        checkAccounts[1] = new CheckingAccount("Nathan Steward", 24900);
-        checkAccounts[2] = new CheckingAccount("George Duck", 29990);
-        checkAccounts[3] = new CheckingAccount("Sam Lawrence", 3750.75);
-        checkAccounts[4] = new CheckingAccount("Doug Pearl", 10.75);
+        checkAccounts[0] = new CheckingAccount("Zainab Spall", 10000);
+        checkAccounts[1] = new CheckingAccount("Emily Duck", 24900);
+        checkAccounts[2] = new CheckingAccount("George Washinton", 29990);
+        checkAccounts[3] = new CheckingAccount("Donald Duck", 3750.75);
+        checkAccounts[4] = new CheckingAccount("Alexander Hamilton", 10.75);
 
         SavingsAccount[] saveAccounts = new SavingsAccount[5];
-        saveAccounts[0] = new SavingsAccount("Isabel Truman", 89250, 10.5);
-        saveAccounts[1] = new SavingsAccount("Andrew Sullivan", 12734, 12.1);
-        saveAccounts[2] = new SavingsAccount("Emma Stevens", 31250, 8.89);
-        saveAccounts[3] = new SavingsAccount("Lara Stevens", 75000, 9.25);
-        saveAccounts[4] = new SavingsAccount("Amelia Pearl", 123456, 2.3);
+        saveAccounts[0] = new SavingsAccount("Tom Elephant", 89250, 10.5);
+        saveAccounts[1] = new SavingsAccount("Abigail Sun", 12734, 12.1);
+        saveAccounts[2] = new SavingsAccount("James Dean", 31250, 8.89);
+        saveAccounts[3] = new SavingsAccount("Star Fire", 75000, 9.25);
+        saveAccounts[4] = new SavingsAccount("SpongeBob SquarePants", 123456, 2.3);
 
         int choice;
         do{
